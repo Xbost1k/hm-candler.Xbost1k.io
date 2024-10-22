@@ -419,11 +419,9 @@ body {
 .feedback__slider {
 	max-width: 770px;
 	width: 100%;
-
+	overflow: hidden;
 }
-* {
-	outline: auto;
-   }
+
 .feedback__content .swiper-pagination {
 	bottom: 65px;
 }
